@@ -16,7 +16,6 @@ class ClimateServiceTest extends AnyFunSuite {
     assert(ClimateService.isClimateRelated("global warming morning") == true)
   }
 
-  //@TODO
   test("parseRawData") {
     // our inputs January
     val firstRecord = (2003, 1, 355.2) //help: to acces 2003 of this tuple, you can do firstRecord._1
@@ -98,7 +97,6 @@ class ClimateServiceTest extends AnyFunSuite {
   }
 
 
-  //@TODO
   test("filterDecemberData") {
     val firstRecord = (1990, 12, 353.89)
     val secondRecord = (1995, 3, 361.62)
